@@ -1,0 +1,19 @@
+digraph B {
+  graph[layout=dot]
+  node[color="red"]
+  edge[color="blue"]
+  
+  book [label="Book:\nThe Six Conversations"];
+  #pt1 [label="What is a Loving Conversation"]
+  #pt2 [label="Fresh Conversations"]
+  #pt3 [label="A Daily Practice"]
+  ch1 [label="Chapter 1:\nThe Four Mindsets of a Loving Conversation"];
+  ch2 [label="Chapter 2:\nA Theology of a Loving Conversation"];
+  ch3 [label="Chapter 3:\nOur Current Climate"];
+  mindsets [label="Four Mindsets"];
+
+  book -> ch1
+  ch1 -> mindsets
+  book -> ch2
+  book -> ch3
+}
